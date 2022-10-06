@@ -1,0 +1,11 @@
+
+
+entity ConfiguracaoUsuario {
+  cpf String required,
+  status Status
+}
+
+enum Status {
+  OPEN("Ativo")
+  CLOSED("Inativo")
+}

@@ -1,0 +1,38 @@
+<div class="d-flex justify-content-center">
+  <div class="col-8">
+    <div *ngIf="configuracaoUsuario">
+      <h2 data-cy="configuracaoUsuarioDetailsHeading">
+        <span jhiTranslate="convergenciaApp.configuracaoUsuario.detail.title">Configuracao Usuario</span>
+      </h2>
+
+      <hr />
+
+      <jhi-alert-error></jhi-alert-error>
+
+      <jhi-alert></jhi-alert>
+
+      <dl class="row-md jh-entity-details">
+        <dt><span jhiTranslate="global.field.id">Código</span></dt>
+        <dd>
+          <span>{{ configuracaoUsuario.id }}</span>
+        </dd>
+        <dt><span jhiTranslate="convergenciaApp.configuracaoUsuario.cpf">Cpf</span></dt>
+        <dd>
+          <span>{{ configuracaoUsuario.cpf }}</span>
+        </dd>
+        <dt><span jhiTranslate="convergenciaApp.configuracaoUsuario.status">Status</span></dt>
+        <dd>
+          <span jhiTranslate="{{ 'convergenciaApp.Status.' + configuracaoUsuario.status }}">{{ configuracaoUsuario.status }}</span>
+        </dd>
+      </dl>
+
+      <button type="submit" (click)="previousState()" class="btn btn-info" data-cy="entityDetailsBackButton">
+        <fa-icon icon="arrow-left"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back">Voltar</span>
+      </button>
+
+      <button type="button" [routerLink]="['/configuracao-usuario', configuracaoUsuario.id, 'edit']" class="btn btn-primary">
+        <fa-icon icon="pencil-alt"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit">Editar</span>
+      </button>
+    </div>
+  </div>
+</div>

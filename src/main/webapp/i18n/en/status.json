@@ -1,0 +1,9 @@
+{
+  "convergenciaApp": {
+    "Status": {
+      "null": "",
+      "OPEN": "Ativo",
+      "CLOSED": "Inativo"
+    }
+  }
+}

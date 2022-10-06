@@ -1,0 +1,26 @@
+{
+  "applications": "*",
+  "changelogDate": "20221006135246",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "configuracao_usuario",
+  "fields": [
+    {
+      "fieldName": "cpf",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "Status",
+      "fieldValues": "OPEN (Ativo),CLOSED (Inativo)"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "ConfiguracaoUsuario",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "service": "no"
+}

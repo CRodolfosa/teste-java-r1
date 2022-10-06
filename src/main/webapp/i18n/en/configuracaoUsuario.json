@@ -1,0 +1,25 @@
+{
+  "convergenciaApp": {
+    "configuracaoUsuario": {
+      "home": {
+        "title": "Configuracao Usuarios",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Configuracao Usuario",
+        "createOrEditLabel": "Create or edit a Configuracao Usuario",
+        "notFound": "No Configuracao Usuarios found"
+      },
+      "created": "A new Configuracao Usuario is created with identifier {{ param }}",
+      "updated": "A Configuracao Usuario is updated with identifier {{ param }}",
+      "deleted": "A Configuracao Usuario is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Configuracao Usuario {{ id }}?"
+      },
+      "detail": {
+        "title": "Configuracao Usuario"
+      },
+      "id": "ID",
+      "cpf": "Cpf",
+      "status": "Status"
+    }
+  }
+}

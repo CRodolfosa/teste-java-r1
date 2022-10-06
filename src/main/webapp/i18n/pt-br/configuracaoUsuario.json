@@ -1,0 +1,25 @@
+{
+  "convergenciaApp": {
+    "configuracaoUsuario": {
+      "home": {
+        "title": "Configuracao Usuarios",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Configuracao Usuario",
+        "createOrEditLabel": "Criar ou editar Configuracao Usuario",
+        "notFound": "Nenhum Configuracao Usuario encontrado"
+      },
+      "created": "Um novo Configuracao Usuario foi criado com o identificador {{ param }}",
+      "updated": "Um Configuracao Usuario foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Configuracao Usuario foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Configuracao Usuario {{ id }}?"
+      },
+      "detail": {
+        "title": "Configuracao Usuario"
+      },
+      "id": "ID",
+      "cpf": "Cpf",
+      "status": "Status"
+    }
+  }
+}

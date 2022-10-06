@@ -1,0 +1,6 @@
+
+
+entity ConfiguracaoUsuario {
+  cpf String required,
+  status Status
+}
